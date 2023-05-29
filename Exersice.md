@@ -78,8 +78,8 @@ events_sent_created 1.6849472507492208e+09
       12. Memory Usage Ratio
       13. Rate of File Descriptor Usage
 
-answers
-description
+## answers
+
 # 1-2:
 the service name: "event-scraper-py", pod: "event-scraper-py-f68cccc4d-x8kjl", namespace: "scraper", instance="10.244.0.12:8000", endpoint: "event-scraper-py", job: "event-scraper-py", contaoner: "event-scraper-py".
 # 3:
