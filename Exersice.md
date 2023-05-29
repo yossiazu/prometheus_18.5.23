@@ -81,7 +81,7 @@ events_sent_created 1.6849472507492208e+09
 ## answers
 
 # 1-2:
-the service name: "event-scraper-py", pod: "event-scraper-py-f68cccc4d-x8kjl", namespace: "scraper", instance="10.244.0.12:8000", endpoint: "event-scraper-py", job: "event-scraper-py", contaoner: "event-scraper-py".
+the service name: "event-scraper-py", pod: "event-scraper-py-f68cccc4d-x8kjl", namespace: "scraper", instance="10.244.0.12:8000", endpoint: "event-scraper-py", job: "event-scraper-py", container: "event-scraper-py".
 # 3:
 # python_gc_objects_collected_total:
 this metric quantifies the count of objects that are collected during the process of garbage collection, his type is count.
@@ -97,10 +97,10 @@ this metric represents the count of how many times each generation was collected
 the python_info metric offers details about the Python platform, including specific aspects and corresponding values, his type is gauge.
 
 # process_virtual_memory_bytes:
-this metric quantifies the size of virtual memory in bytes, which is : 291,508,224 bytes, his type is gauge
+this metric quantifies the size of virtual memory in bytes, which is : 291,508,224 bytes, his type is gauge.
 
 # process_resident_memory_bytes:
-this metric quantifies the size of resident memory in bytes, representing the portion of the process memory currently held in RAM, his type is gauge 
+this metric quantifies the size of resident memory in bytes, representing the portion of the process memory currently held in RAM, his type is gauge. 
 
 # process_start_time_seconds:
 this metric represents the start time of the process since the Unix epoch, measured in seconds, his type is gauge.
